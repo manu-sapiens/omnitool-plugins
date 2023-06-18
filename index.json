@@ -1,0 +1,54 @@
+{
+    "about": "Index in json format of available Pile of Pythons Plugins for Omnitool",
+    "tags": {
+        "torch-required": "requires torch",
+        "torch-supported": "support torch, but does not need it",
+        "llm": "requires a llm",
+        "docker": "docker version available",
+        "python3.9": "support python version 3.9",
+        "python3.10": "support python version 3.10",
+        "python3.11": "support python version 3.11",
+        "MIT-license": "MIT license",
+        "APACHE-license": "Apache License",
+        "AGPL-license": "AGPL License",
+        "HPND-license": "HPND License",
+        "commercial-friendly": "Can be used in commercial applications"
+    },
+    "extensions": [
+        {
+            "name": "Pillow",
+            "url": "https://github.com/manu-sapiens/pillow_plugin.git",
+            "description": "Provide some of pillow's image processing capabilities",
+            "added": "2023-06-16",
+            "tags": ["python3.11", "HPND-license","commercial-friendly"]
+        },
+        {
+            "name": "Yolov",
+            "url": "https://github.com/manu-sapiens/yolov_plugin.git",
+            "description": "Segment an image using Yolov8",
+            "added": "2023-06-16",
+            "tags": ["python3.11", "AGPL-license"]
+        },
+        {
+            "name": "SAM",
+            "url": "https://github.com/manu-sapiens/sam_plugin.git",
+            "description": "Segment an image using SAM",
+            "added": "2023-06-16",
+            "tags": ["python3.11", "MIT-license"]
+        },
+        {
+            "name": "Yolov",
+            "url": "https://github.com/manu-sapiens/deepfilter_plugin.git",
+            "description": "Enhance audio using DeepFilter",
+            "added": "2023-06-16",
+            "tags": ["python3.11", "MIT-license"]
+        },
+        {
+            "name": "Yolov",
+            "url": "https://github.com/manu-sapiens/cdn_plugin.git",
+            "description": "Upload and download from the cdn",
+            "added": "2023-06-16",
+            "tags": ["python3.11", "MIT-license"]
+        }                
+    ]
+}
