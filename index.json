@@ -37,14 +37,14 @@
             "tags": ["python3.11", "MIT-license"]
         },
         {
-            "name": "Yolov",
+            "name": "Deepfilter",
             "url": "https://github.com/manu-sapiens/deepfilter_plugin.git",
             "description": "Enhance audio using DeepFilter",
             "added": "2023-06-16",
             "tags": ["python3.11", "MIT-license"]
         },
         {
-            "name": "Yolov",
+            "name": "CDN",
             "url": "https://github.com/manu-sapiens/cdn_plugin.git",
             "description": "Upload and download from the cdn",
             "added": "2023-06-16",
