@@ -8,11 +8,14 @@
         "python3.9": "support python version 3.9",
         "python3.10": "support python version 3.10",
         "python3.11": "support python version 3.11",
-        "MIT-license": "MIT license",
-        "APACHE-license": "Apache License",
-        "AGPL-license": "AGPL License",
-        "HPND-license": "HPND License",
-        "commercial-friendly": "Can be used in commercial applications"
+        "MIT license": "MIT license",
+        "APACHE license": "Apache License",
+        "AGPL license": "AGPL License",
+        "HPND license": "HPND License",
+        "commercial-friendly": "Can be used in commercial applications",
+        "Windows": "tested on Windows",
+        "Darwin": "tested on macOs",
+        "Linux": "tested on Linux"
     },
     "extensions": [
         {
@@ -20,35 +23,42 @@
             "url": "https://github.com/manu-sapiens/pillow_plugin.git",
             "description": "Provide some of pillow's image processing capabilities",
             "added": "2023-06-16",
-            "tags": ["python3.11", "HPND-license","commercial-friendly"]
+            "tags": ["python3.11", "HPND license","commercial-friendly", "Windows", "Darwin"]
         },
         {
             "name": "Yolov",
             "url": "https://github.com/manu-sapiens/yolov_plugin.git",
             "description": "Segment an image using Yolov8",
             "added": "2023-06-16",
-            "tags": ["python3.11", "AGPL-license"]
+            "tags": ["python3.11", "AGPL license", "Windows", "Darwin"]
         },
         {
             "name": "SAM",
             "url": "https://github.com/manu-sapiens/sam_plugin.git",
             "description": "Segment an image using SAM",
             "added": "2023-06-16",
-            "tags": ["python3.11", "MIT-license"]
+            "tags": ["python3.11", "MIT license", "Windows", "Darwin"]
         },
         {
             "name": "Deepfilter",
             "url": "https://github.com/manu-sapiens/deepfilter_plugin.git",
             "description": "Enhance audio using DeepFilter",
             "added": "2023-06-16",
-            "tags": ["python3.11", "MIT-license"]
+            "tags": ["python3.11", "MIT license", "Apache license", "Windows", "Darwin"]
         },
         {
             "name": "CDN",
             "url": "https://github.com/manu-sapiens/cdn_plugin.git",
             "description": "Upload and download from the cdn",
             "added": "2023-06-16",
-            "tags": ["python3.11", "MIT-license"]
-        }                
+            "tags": ["python3.11", "MIT license", "Windows", "Darwin"]
+        },
+        {
+            "name": "Vectorstore",
+            "url": "https://github.com/manu-sapiens/cdn_vectorstore.git",
+            "description": "Ingest and query using a vectorstore",
+            "added": "2023-06-16",
+            "tags": ["python3.11", "MIT license", "Windows", "Darwin"]
+        }  
     ]
 }
