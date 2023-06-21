@@ -55,7 +55,7 @@
         },
         {
             "name": "Vectorstore",
-            "url": "https://github.com/manu-sapiens/cdn_vectorstore.git",
+            "url": "https://github.com/manu-sapiens/vectorstore_plugin.git",
             "description": "Ingest and query using a vectorstore",
             "added": "2023-06-16",
             "tags": ["python3.11", "MIT license", "Windows", "Darwin"]
