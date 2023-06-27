@@ -12,6 +12,7 @@
         "APACHE license": "Apache License",
         "AGPL license": "AGPL License",
         "HPND license": "HPND License",
+        "GPL license": "GPL License",
         "commercial-friendly": "Can be used in commercial applications",
         "Windows": "tested on Windows",
         "Darwin": "tested on macOs",
@@ -59,6 +60,13 @@
             "description": "Ingest and query using a vectorstore",
             "added": "2023-06-16",
             "tags": ["python3.11", "MIT license", "Windows", "Darwin"]
-        }  
+        }, 
+        {
+            "name": "Pandoc",
+            "url": "https://github.com/manu-sapiens/pandoc_plugin.git",
+            "description": "Convert docs",
+            "added": "2023-06-27",
+            "tags": ["python3.11", "GPL license", "Darwin"]
+        }         
     ]
 }
